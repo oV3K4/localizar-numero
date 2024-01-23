@@ -2,7 +2,7 @@ import phonenumbers
 from phonenumbers import geocoder, carrier
 
 #Digite o número com código do país e DD
-phoneNumer = phonenumbers.parse("DIGITE O CÓDIGO AQUI")
+phoneNumer = phonenumbers.parse("DIGITE O NÚMERO AQUI")
 
 Carrier = carrier.name_for_number(phoneNumer, 'pt-br')
 
